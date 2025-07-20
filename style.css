@@ -12,6 +12,11 @@ body {
   background-color: bisque;
   border-radius: 10%;
 }
+.container{
+  text-align:right;
+  display:flex;
+  justify-content: flex-end;
+}
 
 
 body.dark {
@@ -34,7 +39,7 @@ body {
 
   display: flex;
    background-color: #4b2e2e;
-   justify-content: flex-end;
+   justify-content: center;
    align-items: center;
   
 }
@@ -42,7 +47,7 @@ body {
 .navbar {
 
   display: flex;
-  
+  justify-content:center;
   list-style-type: none;
  
   padding: 15px;
@@ -75,12 +80,14 @@ header {
   padding: 2rem;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
 }
 
 h1 {
-  margin: 0;
+  margin-bottom: 20px;
   font-size: 2.5rem;
   color: #3e2723;
+  text-size-adjust: 100%;
 }
 
 .gallery {
