@@ -8,18 +8,36 @@
 
 body {
   font-family: sans-serif;
-  background-color: #355d6e;
+  background-color: #f3f5f6;
   color: #be3333;
   display: flex;
   min-height: 100vh;
 }
 #btn{
+  position: absolute;
+  top: 692px;
+  right: 90px;
+  padding: 10px 16px;
+  background-color: #744040;
+  color: white;
   border: none;
-  padding: 5px;
-  background-color: bisque;
-  border-radius: 10%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 1000;
 }
 
+  
+
+ body.dark {
+  background-color: #1e1e1e;
+  color: #221e1e;
+}
+
+body.dark .menu-item {
+  background-color: #2c2c2c;
+  border-color: #444;
+}
 .sidebar {
   width: 250px;
   height: 100vh;
@@ -78,7 +96,7 @@ body {
 
 .story-section {
   padding: 20px 20px;
-  background-color: #fff9f5;
+  background-color: rgba(255, 254, 213, 0.911);
 }
 
 .story-content {
@@ -151,14 +169,13 @@ body {
   padding: 20px;
   width: 280px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
   text-align: left;
 }
 
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #fffdf7;
   text-align: center;
   padding: 40px;
   color: #333;
@@ -171,7 +188,7 @@ h1 {
 
 .gallery-section {
   padding: 50px 20px;
-  background-color: #fff9f5;
+  background-color: #fdfff5;
   text-align: center;
 }
 
@@ -185,15 +202,17 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
   gap: 20px;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: auto;
+
 }
+
 
 .gallery-item img {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease;
 }
