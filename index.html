@@ -7,30 +7,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="nav-container">
-      <nav class="navbar">
+    <nav class="navbar">
+      <div class="nav-links-container">
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="menu.html">Menu</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-        <button class="themeBtn" id="btn">Theme</button>
-        <button id="openModal">welcome</button>
-        <div id="myModal" class="modal">
-          <div class="modal-content">
-            <h3>
-              Welcome to LAVISH Cafe!</h3>
-            <p> we have got the perfect cup waiting for you. Enjoy great flavors, friendly service, and special offers every day. Your perfect coffee moment starts here!
-            </p>
-          </div>
-      </nav>
-    </div>
+      </div>
+      <button class="themeBtn" id="btn">Theme</button>
+    </nav>
 
     <header>
       <h1>THE LAVISH</h1>
       <p>Your daily dose of freshly brewed happiness!</p>
     </header>
+
+    <div class="modal-container">
+      <button id="openModal">Welcome</button>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <h3>Welcome to LAVISH Cafe!</h3>
+          <p>
+            We have got the perfect cup waiting for you. Enjoy great flavors,
+            friendly service, and special offers every day. Your perfect coffee
+            moment starts here!
+          </p>
+          <span class="close" id="closeModal">&times;</span>
+        </div>
+      </div>
+    </div>
 
     <section class="gallery">
       <div class="coffee-card">
@@ -59,13 +66,14 @@
           src="https://www.all-thats-jas.com/wp-content/uploads/2021/06/ancient-mayan-chocolate-drink-640x853.jpg"
           alt="chocolate coffee"
         />
-        <h2>Chocolate </h2>
+        <h2>Chocolate</h2>
       </div>
     </section>
 
     <footer>
       <p>📍 Visit us: Main Street, Coffeevilla ,123-456-7456</p>
     </footer>
+
     <script src="script.js"></script>
   </body>
 </html>

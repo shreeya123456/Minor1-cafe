@@ -1,41 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background: #fff7f0;
   color: #4e342e;
 }
 
+body.dark {
+  background: #2c2c2c;
+  color: #f5f5f5;
+}
 
-#btn{
- border: none;
-  padding: 5px;
-  background-color: rgb(227, 227, 26);
-  border-radius: 3%;
-  position: relative;     
-  top: 13px;           
-  left:450px;         
-  padding: 10px 20px;
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4b2e2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 10;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #ffc107;
+  color: #4b2e2e;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+/* Fixed Theme Button Like About Page */
+#btn {
+  position: fixed;
+  bottom: 90px;
+  right: 40px;
+  padding: 10px 16px;
   background-color: #d2ae2dd3;
   color: white;
   border: none;
+  border-radius: 6px;
+  cursor: pointer;
   font-size: 16px;
+  z-index: 1000;
 }
 
-  
+/* Modal */
 .modal {
   display: none;
   position: fixed;
-  top: 0; 
-  right:0;
-  width: 100%; height: 100%;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 999;
 }
+
+.modal-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #openModal {
-  position:relative;     
-  top: 210px;;
-  right:220px;
-  transform: translate(-50%, -50%);
   padding: 12px 24px;
   background-color: #826a58;
   color: white;
@@ -43,30 +92,26 @@ body {
   border-radius: 5px;
   font-size: 15px;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: background-color 0.3s ease;
 }
 
 #openModal:hover {
   background-color: #563d2d;
 }
 
-
-h3{
-  color:rgb(102, 200, 219);
-  margin-bottom:20px;
+h3 {
+  color: rgb(102, 200, 219);
+  margin-bottom: 20px;
 }
 
 .modal-content {
-  background:black;
-  width: 400px; 
-  margin:15% auto;         
+  background: black;
+  width: 400px;
+  margin: 15% auto;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  position:relative;
-  color:rgb(245, 251, 247);
-
+  position: relative;
+  color: rgb(245, 251, 247);
 }
 
 .close {
@@ -78,84 +123,21 @@ h3{
   cursor: pointer;
 }
 
-
-
-
-.container{
-  text-align:right;
-  display:flex;
-  justify-content: flex-end;
-}
-
-
-body.dark {
-  background: #2c2c2c;
-  color: #f5f5f5;
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial,sans-serif;
-}
-
-.nav-container{
-
-  display:flex;
-   background-color: #4b2e2e;
-   justify-content: center;
-   align-items: center;
-  
-}
-
-.navbar {
-  display: flex;
-  justify-content:center;
-  list-style-type: none;
-  padding: 15px;
-}
-
-.nav-links {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-}
-
-.nav-links  a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  padding: 8px 16px;
-  border-radius: 4px;
-  transition: 0.3s;
-}
-
-.nav-links  a:hover {
-  background-color: #ffc107;
-  color: #4b2e2e;
-}
-
-
 header {
-  color:black;
+  color: black;
   padding: 2rem;
   text-align: center;
+  margin-top: 120px;
   margin-bottom: 20px;
 }
 
 h1 {
   margin-bottom: 20px;
   font-size: 2.5rem;
-  color:chocolate;
-  text-size-adjust: 100%;
+  color: chocolate;
 }
-p{
+
+p {
   font-size: 20px;
 }
 
@@ -165,11 +147,10 @@ p{
   justify-content: center;
   gap: 2rem;
   padding: 2rem;
-
 }
 
 .coffee-card {
-  background: (145deg, #ffe0b2, #ffe0e2);
+  background: linear-gradient(145deg, #ffe0b2, #ffe0e2);
   border-radius: 16px;
   padding: 1rem;
   width: 250px;
@@ -178,7 +159,7 @@ p{
   transition: transform 0.3s ease;
 }
 
-.coffee-card :hover {
+.coffee-card:hover {
   transform: scale(1.05);
 }
 
@@ -186,6 +167,7 @@ p{
   width: 100%;
   border-radius: 12px;
 }
+
 footer {
   background: #6d4c41;
   color: #fff;
@@ -198,6 +180,3 @@ footer {
   transform: translate(20px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
-
-
-
