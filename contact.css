@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #fff9f5;
+  background: #fffcfa;
   color: #333;
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
 .contact-section {
   max-width: 600px;
   margin: 50px auto;
-  background: #ffffff;
+  background: #f1cbcb;
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);

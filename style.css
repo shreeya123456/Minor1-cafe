@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
-  background: #fff7f0;
+  background: #deb591;
   color: #4e342e;
 }
 
@@ -50,7 +50,6 @@ body.dark {
   border-radius: 5px;
 }
 
-/* Fixed Theme Button Like About Page */
 #btn {
   position: fixed;
   bottom: 90px;
@@ -64,8 +63,6 @@ body.dark {
   font-size: 16px;
   z-index: 1000;
 }
-
-/* Modal */
 .modal {
   display: none;
   position: fixed;
@@ -86,7 +83,7 @@ body.dark {
 
 #openModal {
   padding: 12px 24px;
-  background-color: #826a58;
+  background-color: #815534;
   color: white;
   border: none;
   border-radius: 5px;
@@ -104,7 +101,7 @@ h3 {
 }
 
 .modal-content {
-  background: black;
+  background: rgb(51, 40, 40);
   width: 400px;
   margin: 15% auto;
   padding: 20px;
@@ -139,6 +136,7 @@ h1 {
 
 p {
   font-size: 20px;
+  color:white;
 }
 
 .gallery {
@@ -150,7 +148,7 @@ p {
 }
 
 .coffee-card {
-  background: linear-gradient(145deg, #ffe0b2, #ffe0e2);
+  background: linear-gradient(145deg, #c88013, #ffe0e2);
   border-radius: 16px;
   padding: 1rem;
   width: 250px;
