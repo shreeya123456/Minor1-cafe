@@ -1,6 +1,4 @@
 
-
-
 const btn = document.getElementById("btn");
 
 btn.addEventListener("click", ()=>{
@@ -23,3 +21,4 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+

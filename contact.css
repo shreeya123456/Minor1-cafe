@@ -11,7 +11,7 @@ body {
 .contact-section {
   max-width: 600px;
   margin: 50px auto;
-  background: #f1cbcb;
+  background: #deb591;
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -75,4 +75,13 @@ button:hover {
   color: green;
   margin-top: 15px;
   font-weight: bold;
+}
+footer {
+  background: #6d4c41;
+  color: white;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

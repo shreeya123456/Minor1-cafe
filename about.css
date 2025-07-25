@@ -6,7 +6,7 @@
 
 body {
   font-family: sans-serif;
-  background-color:#fff6a6;
+  background-color:#deb591;
   color: #be3333;
   display: flex;
   min-height: 100vh;
@@ -84,7 +84,7 @@ body.dark .menu-item {
 }
 
 .about-us {
-  background-color: #fff6a6;
+  background-color: #deb591;
   border-radius: 10px;
 }
 
@@ -102,13 +102,17 @@ body.dark .about-us {
 .about-us p {
   font-size: 18px;
   text-align: center;
-  color: #6fc315;
   margin-bottom: 40px;
 }
+  .footer p {
+    margin: 0;
+    padding: 0;
+  }
+
 
 .story-section {
   padding: 20px 20px;
-  background-color: #fff6ac;
+  background-color: #deb591;
 }
 
 .story-content {
@@ -128,13 +132,13 @@ body.dark .about-us {
 
 .story-text h2 {
   font-size: 100;
-  color: #c14d0a;
+  color: #b94a0b;
   margin-bottom: 1px;
 }
 
 .story-text p {
   font-size: 1.1rem;
-  color: #6fc315;
+
 }
 
 .story-image {
@@ -162,7 +166,7 @@ body.dark .about-us {
 .team-section {
   padding: 60px 20px;
   text-align: center;
-  background-color: #fff6ac;
+  background-color: #deb591;
 }
 
 .team-section h2 {
@@ -174,6 +178,10 @@ body.dark .about-us {
 .team-member p{
     color:white;
   
+}
+
+.team-member{
+  color:white;
 }
 
 
@@ -195,7 +203,7 @@ body.dark .about-us {
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  padding: 40px;
+  padding-top: 40px;
   color: #333;
 }
 
@@ -206,7 +214,7 @@ h1 {
 
 .gallery-section {
   padding: 50px 20px;
-  background-color: #fff6ac;
+  background-color: #deb591;
   text-align: center;
 }
 
@@ -236,6 +244,13 @@ h1 {
 .gallery-item img:hover {
   transform: scale(1.05);
 }
+footer {
+  background: #6d4c41;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
 
 @media (max-width: 768px) {
   .about-us h1 {
@@ -285,3 +300,4 @@ h1 {
     padding: 0 10px;
   }
 }
+

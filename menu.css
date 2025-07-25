@@ -1,7 +1,7 @@
 
 body{
   font-family: Arial, sans-serif;
-  background-color: #edf1ae;
+  background-color: #deb591;
   margin: 0;
   padding: 0;
  background-color:light rgb(209, 209, 171);
@@ -11,7 +11,7 @@ body{
   top: 20px;
   right: 20px;
   padding: 10px 16px;
-  background-color: #744040;
+  background-color: #763c3c;
   color: white;
   border: none;
   border-radius: 6px;
@@ -54,7 +54,7 @@ p{
 }
 
 .filters button {
-  background-color: #68141b;
+  background-color: #4f2a2d;
   color: white;
   padding: 10px 20px;
   margin: 0 10px;
@@ -117,3 +117,15 @@ p{
 .hidden {
   display: none;
 }
+
+footer {
+  background: #6d4c41;
+  color: white;
+  padding: 1px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
