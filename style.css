@@ -25,7 +25,6 @@ body.dark {
   border-radius: 10px;
 }
 
-
 .navbar {
   position: fixed;
   top: 0;
@@ -53,7 +52,6 @@ body.dark {
    transition: background-color 0.3s;
 }
 
-
 .nav-links a:hover {
   background-color: #ffc107;
   color: #4b2e2e;
@@ -74,7 +72,6 @@ body.dark {
   font-size: 16px;
   z-index: 1000;
 }
-
 
 .modal {
   display: none;

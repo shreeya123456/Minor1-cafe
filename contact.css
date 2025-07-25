@@ -1,12 +1,43 @@
 
+
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #fffcfa;
+  background: #d8c6b9;
   color: #333;
   margin: 0;
   padding: 0;
 }
 
+   .navbar {
+  background-color: #5a3c35;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  text-align: center;
+  padding: 5px 5px;
+  font-size:18px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+ .nav-links li a:hover {
+  background-color: #ffc107;
+  color: #5a3c35;
+  padding: 6px;
+  border-radius: 5px;
+ }
 
 .contact-section {
   max-width: 600px;
@@ -79,7 +110,7 @@ button:hover {
 footer {
   background: #6d4c41;
   color: white;
-  padding: 1px;
+  padding: 3px;
   display: flex;
   justify-content: center;
   align-items: center;

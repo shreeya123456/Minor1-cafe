@@ -5,7 +5,6 @@ btn.addEventListener("click", ()=>{
 
 document.body.classList.toggle("dark");
 
-
 })
 
 const modal = document.getElementById("myModal");
