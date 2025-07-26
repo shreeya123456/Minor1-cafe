@@ -63,13 +63,12 @@ body.dark {
   background: #deb591;
   padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
 .contact-section h2 {
   color: #6b3e26;
-  font-size: 2rem;
+  font-size: 35px;
   margin-bottom: 10px;
 }
 
@@ -100,10 +99,7 @@ input, textarea {
   transition: border 0.3s;
 }
 
-input:focus, textarea:focus {
-  border-color: #ff7f50;
-  outline: none;
-}
+
 button {
   background-color: #6c4030;
   color: white;
@@ -118,7 +114,6 @@ button {
 button:hover {
   background-color: #e06a3d;
 }
-
 
 .success-message {
   color: green;
