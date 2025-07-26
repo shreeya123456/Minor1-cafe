@@ -60,11 +60,11 @@ body.dark {
 }
 
 #btn {
-  position: fixed;
-  bottom: 90px;
-  right: 40px;
+  position:absolute;
+  top: 20px;
+  right: 20px;
   padding: 10px 16px;
-  background-color: #d2ae2dd3;
+  background-color: chocolate;
   color: white;
   border: none;
   border-radius: 6px;
