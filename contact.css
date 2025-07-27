@@ -115,11 +115,8 @@ button:hover {
   background-color: #e06a3d;
 }
 
-.success-message {
-  color: green;
-  margin-top: 15px;
-  font-weight: bold;
-}
+
+
 footer {
   background: #6d4c41;
   color: white;
