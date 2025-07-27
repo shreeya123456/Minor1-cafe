@@ -84,6 +84,12 @@ body.dark {
   z-index: 999;
 }
 
+#png {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
 .modal-container {
   width: 100%;
   display: flex;

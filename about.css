@@ -181,6 +181,14 @@ h1 {
   margin-bottom: 30px;
 }
 
+
+
+#png{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
 .gallery-grid {
   display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
